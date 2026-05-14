@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "MegaDetector-Acoustic: Open-Source Bioacoustic AI for Wildlife Monitoring"
+message: "If you use MegaDetector-Acoustic, please cite it using the metadata from this file."
+type: software
+version: "1.0.0"
+date-released: "2026-05-14"
+authors:
+  - given-names: Andres
+    family-names: Hernandez
+  - given-names: Zhongqi
+    family-names: Miao
+  - given-names: Luisa
+    family-names: Vargas
+  - given-names: Sara
+    family-names: Beery
+  - given-names: Rahul
+    family-names: Dodhia
+  - given-names: Juan
+    family-names: Lavista
+  - name: "Microsoft AI for Good Lab"
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2405.12930"
+    description: "Pytorch-Wildlife: A Collaborative Deep Learning Framework for Conservation"
+repository-code: "https://github.com/microsoft/MegaDetector-Acoustic"
+url: "https://microsoft.github.io/MegaDetector-Acoustic/"
+keywords:
+  - MegaDetector-Acoustic
+  - bioacoustics
+  - wildlife monitoring
+  - audio classification
+  - species identification
+  - passive acoustic monitoring
+  - conservation
+  - PyTorch-Wildlife
+  - ai-for-good
+license: MIT
