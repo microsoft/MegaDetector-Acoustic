@@ -1,0 +1,9 @@
+PytorchWildlife
+librosa
+soundfile
+torchaudio
+pyyaml
+torchmetrics
+pytorch-lightning
+pandas
+numpy
