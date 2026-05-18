@@ -57,4 +57,4 @@ MegaDetector-Acoustic is one model in a larger open-source ecosystem from the Mi
 | [microsoft/MegaDetector-Sonar](https://github.com/microsoft/MegaDetector-Sonar) | Sonar-based wildlife detection for aquatic monitoring |
 | [microsoft/MegaDetector-Classifier](https://github.com/microsoft/MegaDetector-Classifier) | Camera-trap species classification fine-tuning — adapt classifiers to your own datasets and geographic regions |
 | [microsoft/SPARROW](https://github.com/microsoft/SPARROW) | Solar-Powered Acoustic and Remote Recording Observation Watch — AI-enabled edge device |
-| [microsoft/SPARROW-Studio](https://github.com/microsoft/SPARROW-Studio) | Desktop application for all AI for Good Lab models |
+| SPARROW Studio | Desktop application for all AI for Good Lab models |
