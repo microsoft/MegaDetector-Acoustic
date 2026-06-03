@@ -1,5 +1,5 @@
 ---
-description: "How to cite MegaDetector-Acoustic — BibTeX and citation.cff entries for the PyTorch-Wildlife bioacoustics AI system."
+description: "How to cite MegaDetector-Acoustic: BibTeX and citation.cff entries for the PyTorch-Wildlife bioacoustics AI system."
 tags:
   - cite MegaDetector-Acoustic
   - MegaDetector citation
@@ -30,8 +30,8 @@ You can also cite MegaDetector-Acoustic as software directly. The [`citation.cff
 
 If your research uses the PteroSet benchmark dataset, please also cite:
 
-- [PteroSet](https://github.com/microsoft/PteroSet) — a benchmark for detecting and classifying tropical bird vocalizations from passive acoustic monitoring recordings.
+- [PteroSet](https://github.com/microsoft/PteroSet) is a benchmark for detecting and classifying tropical bird vocalizations from passive acoustic monitoring recordings.
 
 If your research involves the Cook Inlet beluga whale pipeline:
 
-- [CookInlet_Belugas](https://github.com/microsoft/CookInlet_Belugas) — end-to-end passive acoustic monitoring for endangered Cook Inlet beluga whales.
+- [CookInlet_Belugas](https://github.com/microsoft/CookInlet_Belugas) provides end-to-end passive acoustic monitoring for endangered Cook Inlet beluga whales.
