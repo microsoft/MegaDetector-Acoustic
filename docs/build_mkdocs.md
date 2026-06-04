@@ -7,7 +7,7 @@ tags:
   - MegaDetector-Acoustic
 ---
 
-# Developer Guide — Building the Docs
+# Developer Guide: Building the Docs
 
 This page explains how to build and preview the MegaDetector-Acoustic documentation site locally.
 
@@ -45,7 +45,7 @@ To deploy manually (maintainers only):
 mkdocs gh-deploy --force
 ```
 
-This builds the site and force-pushes to the `gh-pages` branch. Do not commit the `site/` directory — it is generated and is in `.gitignore`.
+This builds the site and force-pushes to the `gh-pages` branch. Do not commit the `site/` directory; it is generated and is in `.gitignore`.
 
 ## Adding a new page
 

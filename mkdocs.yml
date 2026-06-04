@@ -73,6 +73,10 @@ nav:
   - MegaDetector-Acoustic:
     - Overview: index.md
     - Installation: installation.md
+    - Bioacoustic workflow: workflow.md
+    - Terrestrial passive acoustic monitoring: passive-acoustic-monitoring.md
+    - Evaluation and limitations: evaluation.md
+    - Audio vs. image-based monitoring: positioning.md
     - Tags: tags.md
   - Cite Us: cite.md
   - Developer Guide: build_mkdocs.md

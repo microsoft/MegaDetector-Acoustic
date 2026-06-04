@@ -1,14 +1,17 @@
 ---
-description: "How to install and set up MegaDetector-Acoustic for bioacoustic species identification from audio recordings."
+title: "Install MegaDetector-Acoustic for Bioacoustic AI"
+description: "Install and set up MegaDetector-Acoustic for terrestrial bioacoustic monitoring and audio species classification, including GPU setup and dependency details."
 tags:
   - MegaDetector-Acoustic installation
-  - bioacoustics setup
+  - bioacoustic AI
+  - passive acoustic monitoring
   - PyTorch-Wildlife
-  - audio AI setup
-  - wildlife monitoring
+  - audio species classification
 ---
 
 # Installation
+
+This page covers installing MegaDetector-Acoustic so you can run the [bioacoustic workflow](workflow.md) on your own recordings. New to the toolkit? Start with the [Overview](index.md).
 
 ## Requirements
 
@@ -59,4 +62,6 @@ If running on CPU, spectrogram generation will fall back to CPU automatically (s
 
 - Run the [demo notebook](https://github.com/microsoft/MegaDetector-Acoustic/blob/main/demo/bioacoustics_demo.ipynb) for an end-to-end walkthrough
 - Copy `template.yaml` as a starting point for your domain configuration
+- Read the [bioacoustic workflow](workflow.md) to understand the collect, segment, classify, review pipeline
+- See how the toolkit fits a [terrestrial passive acoustic monitoring](passive-acoustic-monitoring.md) study
 - See the [README](https://github.com/microsoft/MegaDetector-Acoustic#quick-start) for full CLI usage
