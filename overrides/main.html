@@ -76,6 +76,44 @@
   </script>
   {%- endif %}
 
+  {%- if page and page.file and page.file.src_path == "getting-started.md" and page.canonical_url %}
+  {#- Getting Started page only: HowTo. Steps mirror the visible getting-started.md headings. -#}
+  <script type="application/ld+json">
+  {{- {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Getting Started with MegaDetector-Acoustic",
+    "description": "How to get started with MegaDetector-Acoustic: install the toolkit, prepare audio into spectrograms, train a classifier, and run sliding-window inference on long recordings.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Install",
+        "text": "Clone the MegaDetector-Acoustic repository and install its requirements with pip. Python 3.9+ and PyTorch 2.0+ are required; a CUDA GPU is optional but recommended.",
+        "url": page.canonical_url ~ "#step-1-install"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Prepare your audio",
+        "text": "Convert raw .wav and .flac recordings into sliding windows and GPU-accelerated mel spectrograms, the model-ready input for training and inference.",
+        "url": page.canonical_url ~ "#step-2-prepare-your-audio"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Train a classifier",
+        "text": "Train a ResNet classifier for binary or multiclass species classification, using SpecAugment and MixUp augmentation and a domain configuration from template.yaml.",
+        "url": page.canonical_url ~ "#step-3-train-a-classifier"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Run inference and review",
+        "text": "Run sliding-window inference on long recordings to export a CSV of per-window probabilities, then threshold, aggregate, or review the windows as your study requires.",
+        "url": page.canonical_url ~ "#step-4-run-inference-and-review"
+      }
+    ]
+  } | tojson -}}
+  </script>
+  {%- endif %}
+
   {%- if page and page.file and page.file.src_path != "index.md" and page.canonical_url %}
   <script type="application/ld+json">
   {{- {

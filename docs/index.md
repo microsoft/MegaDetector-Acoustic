@@ -30,7 +30,7 @@ MegaDetector-Acoustic turns raw audio recordings into structured species predict
 
 ## Get Started
 
-See the [Installation](installation.md) page, then run the demo notebook:
+New here? The [Getting Started](getting-started.md) guide walks the full path from install to running inference. For a quick start, see the [Installation](installation.md) page, then run the demo notebook:
 
 ```bash
 git clone https://github.com/microsoft/MegaDetector-Acoustic

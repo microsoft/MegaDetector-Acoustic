@@ -10,6 +10,8 @@ tags:
 
 # Installation
 
+New to MegaDetector-Acoustic? The [Getting Started](getting-started.md) guide puts this install step in the full path from audio to species predictions.
+
 ## Requirements
 
 - Python 3.9+
