@@ -28,6 +28,8 @@ MegaDetector-Acoustic is one model in a larger open-source ecosystem from the Mi
 
 MegaDetector-Acoustic provides CLI scripts and training tools for audio-based wildlife detection and classification. The core deep learning infrastructure (models, datasets, spectrogram utilities) is provided by [PyTorch-Wildlife](https://github.com/microsoft/PytorchWildlife).
 
+The project defines a [COCO-inspired JSON annotation format](annotations_format.md) for dataset metadata, sound files, categories, and time-frequency annotations.
+
 **Key capabilities:**
 - Mel spectrogram generation from raw audio (GPU-accelerated)
 - Binary and multiclass species classification using ResNet backbones
