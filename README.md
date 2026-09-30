@@ -87,6 +87,8 @@ training:
 
 ### 2. Prepare dataset
 
+Format dataset annotations according to the [`annotations_format.md`](annotations_format.md) specification.
+
 ```bash
 python prepare_dataset.py --config config/my_domain.yaml
 ```
@@ -133,6 +135,7 @@ MegaDetector-Acoustic/
 ├── train.py              # Training CLI script
 ├── inference.py          # Inference CLI script
 ├── prepare_dataset.py    # Dataset preparation pipeline
+├── annotations_format.md # Bioacoustic annotation format specification
 ├── template.yaml         # Template configuration file
 ├── requirements.txt      # Python dependencies
 └── demo/
