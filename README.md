@@ -6,7 +6,7 @@ Microsoft AI for Good Lab's open-source AI for bioacoustic biodiversity monitori
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch-Wildlife](https://img.shields.io/badge/PyTorch--Wildlife-ecosystem-green.svg)](https://github.com/microsoft/Biodiversity)
 
-MegaDetector-Acoustic is part of the [microsoft/Biodiversity](https://github.com/microsoft/Biodiversity) ecosystem and is powered by the [PyTorch-Wildlife](https://github.com/microsoft/PytorchWildlife) framework. It is free, open-source, and available under the MIT license.
+MegaDetector-Acoustic is part of the [microsoft/Biodiversity](https://github.com/microsoft/Biodiversity) ecosystem and uses [PyTorch-Wildlife](https://github.com/microsoft/SPARROW-Playground/tree/archive/pytorch-wildlife), which is no longer maintained. It is free, open-source, and available under the MIT license.
 
 ## Part of the Biodiversity Ecosystem
 
@@ -16,17 +16,16 @@ MegaDetector-Acoustic is one model in a larger open-source ecosystem from the Mi
 |---|---|
 | [microsoft/Biodiversity](https://github.com/microsoft/Biodiversity) | The umbrella repository — documentation hub for the AI for Good Lab's biodiversity work |
 | [microsoft/MegaDetector](https://github.com/microsoft/MegaDetector) | Animal, human, and vehicle detection for camera-trap images |
-| [microsoft/PytorchWildlife](https://github.com/microsoft/PytorchWildlife) | The collaborative deep learning framework that hosts MegaDetector, species classifiers, and demo notebooks |
+| [PyTorch-Wildlife archive](https://github.com/microsoft/SPARROW-Playground/tree/archive/pytorch-wildlife) | Retired framework containing MegaDetector, species classifiers, and demo notebooks |
 | [microsoft/MegaDetector-Acoustic](https://github.com/microsoft/MegaDetector-Acoustic) | **This repo** — bioacoustic AI for audio-based wildlife detection and classification |
 | [microsoft/MegaDetector-Overhead](https://github.com/microsoft/MegaDetector-Overhead) | Wildlife detection in aerial and drone imagery |
-| [microsoft/MegaDetector-Sonar](https://github.com/microsoft/MegaDetector-Sonar) | Sonar-based wildlife detection for aquatic monitoring |
 | [microsoft/MegaDetector-Classifier](https://github.com/microsoft/MegaDetector-Classifier) | Camera-trap species classification fine-tuning — adapt classifiers to your own datasets and geographic regions |
 | [microsoft/SPARROW](https://github.com/microsoft/SPARROW) | Solar-Powered Acoustic and Remote Recording Observation Watch — AI-enabled edge device for field recording |
 | SPARROW Studio | Desktop application for all AI for Good Lab models |
 
 ## Overview
 
-MegaDetector-Acoustic provides CLI scripts and training tools for audio-based wildlife detection and classification. The core deep learning infrastructure (models, datasets, spectrogram utilities) is provided by [PyTorch-Wildlife](https://github.com/microsoft/PytorchWildlife).
+MegaDetector-Acoustic provides CLI scripts and training tools for audio-based wildlife detection and classification. The core deep learning infrastructure (models, datasets, spectrogram utilities) is provided by [PyTorch-Wildlife](https://github.com/microsoft/SPARROW-Playground/tree/archive/pytorch-wildlife).
 
 The project defines a [COCO-inspired JSON annotation format](annotations_format.md) for dataset metadata, sound files, categories, and time-frequency annotations.
 
@@ -167,4 +166,4 @@ You can also cite this software directly using the [`citation.cff`](citation.cff
 
 Issues, feature requests, and pull requests are welcome at [microsoft/MegaDetector-Acoustic/issues](https://github.com/microsoft/MegaDetector-Acoustic/issues).
 
-For framework-level changes (PyTorch-Wildlife API, models, datasets), see [microsoft/PytorchWildlife](https://github.com/microsoft/PytorchWildlife). For ecosystem-wide questions, see the [microsoft/Biodiversity](https://github.com/microsoft/Biodiversity) umbrella.
+PyTorch-Wildlife is no longer maintained; its [source archive](https://github.com/microsoft/SPARROW-Playground/tree/archive/pytorch-wildlife) remains available. For ecosystem-wide questions, see the [microsoft/Biodiversity](https://github.com/microsoft/Biodiversity) umbrella.
